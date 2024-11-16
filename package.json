@@ -1,0 +1,13 @@
+{
+  "name": "chat-app-backend",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "hono": "^4.6.10"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
